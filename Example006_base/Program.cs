@@ -1,0 +1,18 @@
+﻿int a = 1;
+int b = 2;
+int c = 8;
+int d = 5;
+int e = 3;
+int f = 6;
+int g = 4;
+int h = 7;
+int max = a;
+if (b > a) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (e > max) max = e;
+if (f > max) max = f;
+if (g > max) max = g;
+if (h > max) max = h;
+Console.Write("Max = ");
+Console.WriteLine(max);
